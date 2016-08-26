@@ -1,0 +1,40 @@
+body{
+	width:850px;
+	text-align: center;
+	color:black;
+}
+header{
+	height: 75px;
+	line-height: 75px;
+	background-color: tomato;
+}
+.wrapper{
+	font-size: 0px;
+}
+aside{
+	display:inline-block;
+	font-size: 16px;
+	height: 400px;
+	line-height: 400px;
+}
+.first_aside{
+	width:250px;
+	background-color: deepskyblue;
+}
+article{
+	display:inline-block;
+	font-size: 16px;
+	width:400px;
+	height: 400px;
+	line-height: 400px;
+	background-color: orange;
+}
+.second_aside{
+	width:200px;
+	background-color: forestgreen;
+}
+footer{
+	height: 75px;
+	line-height: 75px;
+	background-color: tomato;
+}

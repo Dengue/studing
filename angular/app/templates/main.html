@@ -1,0 +1,16 @@
+<div ng-controller="myController" ng-init="name=''">
+			<form ng-submit="do()">
+				Search: <input type="text" ng-model="name" required></input>
+				Forks:	<input type="text" ng-model="forks"></input>
+				Stars:	<input type="text" ng-model="stars"></input>
+				Size:	<input type="text" ng-model="size"></input>
+				<button>load</button>
+			</form>
+			<div ng-repeat="item in items.items | limitTo: 10 | orderBy: 'full_name'">
+				<div>Full Name: {{item.full_name}}</div>
+				<div>ID: {{item.id}}</div>
+				<div>Description: {{item.description}}</div>
+				<img ng-src="{{item.owner.avatar_url}}">
+				<a href="#/details" ng-click = "click(item);">Details...</a>
+			</div>
+</div>

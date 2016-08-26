@@ -1,0 +1,344 @@
+* {margin:0; padding: 0;}
+a{text-decoration: none;}
+body{
+	width:1208px;
+	font-family: "Arial";
+}
+.string{
+	font-size:0;
+}
+.string > div{
+	display: inline-block;
+	background: url(strings.png) no-repeat top left;
+}
+.string >div:nth-child(1),.string >div:nth-child(5){
+	background-position: 0 -116px;
+	width:151px;
+	height: 6px;
+}
+.string >div:nth-child(2),.string >div:nth-child(6){
+	background-position: 0 -174px;
+	width:151px;
+	height: 6px;
+}
+.string >div:nth-child(3),.string >div:nth-child(7){
+	background-position: 0 0;
+	width:151px;
+	height: 6px;
+}
+.string >div:nth-child(4),.string >div:nth-child(8){
+	background-position: 0 -58px;
+	width:151px;
+	height: 6px;
+}
+header{
+	height:100px;
+}
+.logo{
+	background: url(png/11-Burst_business_website6-psd.png) no-repeat;
+	width:176px;
+	height: 65px;
+	position: relative;
+	top:20px;
+	left:50px;
+}
+.logo >span{
+	color: #C6C6C6;
+	position: absolute;
+	bottom: 0;
+}
+.nav{
+	position: relative;
+	top:-15px;
+	left:350px;
+	list-style-type: none;
+	margin:0;
+}
+.nav >li{
+	display: inline-block;
+}
+.nav a{
+	color:#55A4BB;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+.nav li:nth-child(4) a{
+	color: #57C5A9;
+	text-decoration: underline;
+}
+.nav a:hover {
+	background-color: #33879E;
+	color:white;
+}
+.consumers{
+	position: relative;
+	left:900px;
+	top:-30px;
+}
+.consumers > a{
+	color:#9AC6D4;
+	text-decoration: underline;
+}
+.consumers >  span {
+	margin-left: 10px;
+	width:8px;
+	height: 12px;
+	background: url(png/59-Burst_business_website6-psd.png) no-repeat center;
+	padding:5px 10px;
+	border: 1px solid #D5E7EC;
+	border-radius: 10px;
+}
+.main-pic{
+	height: 350px;
+	background: url(png/8-Burst_business_website6-psd.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.iphone{
+	position: absolute;
+	background: url(png/9-Burst_business_website6-psd.png) no-repeat;
+	width:381px;
+	height: 350px;
+	top:60px;
+	left:250px;
+}
+.main-pic .text{
+	position: absolute;
+	top:80px;
+	left:675px;
+	color:white;
+	font-size: 1.5em;
+}
+.main-pic .text p{
+	margin: 20px 0px;
+}
+.main-pic .demo-btn {
+    position: absolute;
+    top : 250px;
+    left : 670px;
+    width: 157px;
+    height : 53px;
+    background-color: #0086B4;
+    border-radius : 30px;
+    color: white;
+    font-family: 'Arial';
+    border : 1px solid rgb(46, 144, 167);
+}
+
+.main-pic .demo-btn:hover {
+   border : 4px solid rgb(92, 186, 208);
+    top : 248px;
+    left : 668px;
+}
+
+
+.main-pic .demo-btn span {
+    position: relative;
+    top : 10px;
+    left : 15px;
+    font-size: 25px;
+}
+.actions{
+	height: 182px;
+	background:url(1.png) repeat-x;
+	overflow: hidden;
+}
+.actions ul{
+	height: 100px;
+	margin-top:30px;
+}
+.actions li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.actions li div{
+	margin-left: 135px;
+	background: url(actions.png) no-repeat top left;
+}
+.actions li:nth-child(1) div{
+	margin-left: 200px;
+	background-position: 0 0;
+	width: 95px; 
+	height: 68px;
+}
+.actions li:nth-child(2) div,.actions li:nth-child(4) div{
+	
+	background-position: 0 -266px; 
+	width: 26px; 
+	height: 49px;
+}
+.actions li:nth-child(3) div{
+	background-position: 0 -182px; 
+	width: 96px; 
+	height: 64px;
+}
+.actions li:nth-child(5) div{
+	background: url(png/52-Burst_business_website6-psd.png);
+	width: 75px; 
+	height: 74px;
+}
+.actions li span {
+	color:#33879E;
+	display: block;
+	position: relative;
+	top:20px;
+	left:100px;
+}
+.actions li span:last-of-type{
+	font-size: 0.7em;
+}
+.actions li:nth-child(1) span:last-of-type{
+	left:160px;
+}
+.actions li:nth-child(3) span:last-of-type{
+	left:110px;
+}
+.actions li:nth-child(5) span:last-of-type{
+	left:110px;
+}
+.actions li:nth-child(1) span:first-of-type{
+	left:200px;
+}
+.actions li:nth-child(3) span:first-of-type{
+	left:140px;
+}
+.actions li:nth-child(5) span:first-of-type{
+	left:130px;
+}
+.pic-col{
+	font-size: 0px;
+}
+.pic-col >div {
+	font-size: 16px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+}
+.pic-col >div:nth-child(1) {
+	margin-left: 100px;
+}
+.pic-col .pic1,.pic-col .pic2,
+.pic-col .pic3,.pic-col .pic4{
+	overflow : hidden;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    border: 5px solid rgb(173,223,211);
+    position: relative;
+}
+.pic1 img{
+	position: absolute;
+    top : -60px;
+    left : -10px;
+}
+.pic2 img{
+	position: absolute;
+    top : -46px;
+    left : -2px;
+}
+.pic3 img{
+	 position: absolute;
+    top : -5px;
+    left : -4px;
+}
+.pic4 img{
+	 position: absolute;
+    top : -5px;
+    left : -94px;
+}
+.pic-col-text{
+	color:#5D5D5D;
+	width: 250px;
+}
+.pic-col-text h3{
+	margin-top: 20px;
+}
+.pic-col-text p{
+	margin-top: 12px;
+}
+.view-feature-btn{
+	margin-top: 20px;
+	width:200px;
+	height: 30px;
+	border-radius: 20px;
+	border: 2px solid #ADDFFF;
+	padding-top: 10px;
+	text-align: center;
+	position: relative;
+	left:500px;
+}
+.view-feature-btn a{
+	color: #ADDFFF;
+	display: block;
+	height: 100%;
+}
+.view-feature-btn div{
+	margin-left: 10px;
+	display: inline-block;
+	background: url(png/59-Burst_business_website6-psd.png) no-repeat;
+	width: 8px;
+	height: 12px;
+}
+.view-feature-btn:hover{
+	top:2px;
+	left:502px;
+}
+.upper-footer{
+	font-size: 0.8em;
+	margin-top: 30px;
+	height: 120px;
+	background-color: #295B69;
+	border-bottom: 1px solid #ADDFD3;
+	overflow: hidden;
+}
+
+.upper-footer > div{
+	display: inline-block;
+}
+.upper-footer > div:nth-child(1){
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.upper-footer > div:nth-child(1) > *{
+	display: block;
+}
+.upper-footer > div:nth-child(1)  a{
+	color:white;
+}
+.upper-footer > div:nth-child(1)  a:active{
+	color:red;
+}
+.upper-footer > div > span{
+	margin-top: 15px;
+	color: #607F89;
+}
+.upper-footer > div:nth-child(2){
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.upper-footer > div:nth-child(2) > div{
+	margin-top: 15px;
+	color: #607F89;
+}
+.f-pic1{
+	margin-left: 200px;
+}
+.f-pic2{
+	margin-left: 20px;
+}
+.footer-footer{
+	overflow: hidden;
+	height: 60px;
+	background-color: #295B69;
+}
+.footer-footer > div{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 30px;
+	color: #607F89;
+}
+.footer-footer > div:nth-child(1){
+	margin-left: 100px;
+}

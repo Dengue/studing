@@ -1,0 +1,39 @@
+.component{
+	width: 100px;
+	height: 100px;
+	
+}
+.wrapper{
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+	cursor:-moz-grab;
+	cursor: -webkit-grab;
+}
+.c1{
+	background-color: red;
+}
+.c2{
+	background-color: blue;
+}
+.c3{
+	background-color: green;
+}
+.c4{
+	background-color: yellow;
+}
+.c5{
+	background-color: orange;
+}
+li{
+	display: inline-block;
+}
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	width: 9999px;
+	height: 100px;
+	transition: margin-left 0.3s ease-out;
+}

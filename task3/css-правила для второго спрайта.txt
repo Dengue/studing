@@ -1,0 +1,8 @@
+.sprite-11-Burst_business_website6-psd{ background-position: 0 0; width: 176px; height: 53px; } 
+.sprite-19-Burst_business_website6-psd{ background-position: 0 -73px; width: 90px; height: 37px; } 
+.sprite-20-Burst_business_website6-psd{ background-position: 0 -130px; width: 52px; height: 13px; } 
+.sprite-21-Burst_business_website6-psd{ background-position: 0 -163px; width: 51px; height: 13px; } 
+.sprite-22-Burst_business_website6-psd{ background-position: 0 -196px; width: 110px; height: 13px; } 
+.sprite-23-Burst_business_website6-psd{ background-position: 0 -229px; width: 69px; height: 17px; } 
+.sprite-24-Burst_business_website6-psd{ background-position: 0 -266px; width: 80px; height: 11px; } 
+
